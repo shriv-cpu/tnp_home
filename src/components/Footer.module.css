@@ -1,0 +1,126 @@
+.footer {
+  background: #09132d;
+  color: #fff;
+  padding: 3rem 1rem 1rem 1rem;
+  position: relative;
+  font-family: inherit;
+}
+
+.footerContent {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.footerCol {
+  flex: 1 1 220px;
+  min-width: 220px;
+}
+
+.logoImg {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+  background: #fff;
+  border-radius: 50%;
+  padding: 0.25rem;
+}
+
+.footerDesc {
+  color: #d1d5db;
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+.footerTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+  color: #fff;
+}
+
+.linksList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.linkItem {
+  margin-bottom: 0.7rem;
+}
+
+.linkItem a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.97rem;
+  transition: color 0.2s;
+}
+
+.linkItem a:hover {
+  color: #fca5a5;
+}
+
+.socials {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.socialIcon {
+  color: #fff;
+  font-size: 1.3rem;
+  transition: color 0.2s;
+}
+
+.socialIcon:hover {
+  color: #dc2626;
+}
+
+.newsletterForm {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.newsletterInput {
+  padding: 0.6rem 0.9rem;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.newsletterInput::placeholder {
+  color: #d1d5db;
+}
+
+.newsletterButton {
+  background: #dc2626;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.6rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.newsletterButton:hover {
+  background: #b91c1c;
+}
+
+.copyright {
+  text-align: center;
+  color: #d1d5db;
+  font-size: 0.95rem;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #1e293b;
+}
